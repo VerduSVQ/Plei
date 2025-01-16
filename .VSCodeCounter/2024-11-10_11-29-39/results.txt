@@ -1,0 +1,104 @@
+Date : 2024-11-10 11:29:39
+Directory : c:\Users\sgsrb\Desktop\plei TFG
+Total : 59 files,  4509 codes, 232 comments, 546 blanks, all 5287 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          4 |      1,620 |          0 |          2 |      1,622 |
+| JavaScript |         27 |      1,555 |        162 |        281 |      1,998 |
+| HTML       |          1 |        594 |         23 |         44 |        661 |
+| CSS        |          1 |        308 |          7 |         45 |        360 |
+| PHP        |         16 |        249 |         35 |        100 |        384 |
+| Markdown   |          9 |        157 |          0 |         60 |        217 |
+| HTTP       |          1 |         26 |          5 |         14 |         45 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                      | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                         |         59 |      4,509 |        232 |        546 |      5,287 |
+| . (Files)                                                                                 |          4 |      1,657 |         10 |         19 |      1,686 |
+| config                                                                                    |          2 |         37 |         11 |          6 |         54 |
+| controllers                                                                               |          6 |        437 |         45 |         54 |        536 |
+| models                                                                                    |          7 |        344 |          0 |         10 |        354 |
+| public                                                                                    |         31 |      1,932 |        139 |        405 |      2,476 |
+| public (Files)                                                                            |          1 |        594 |         23 |         44 |        661 |
+| public\.VSCodeCounter                                                                     |         10 |        145 |          0 |         52 |        197 |
+| public\.VSCodeCounter\2024-05-23_13-14-50                                                 |          5 |         65 |          0 |         26 |         91 |
+| public\.VSCodeCounter\2024-05-25_11-35-15                                                 |          5 |         80 |          0 |         26 |        106 |
+| public\backend                                                                            |         16 |        249 |         35 |        100 |        384 |
+| public\css                                                                                |          1 |        308 |          7 |         45 |        360 |
+| public\js                                                                                 |          3 |        636 |         74 |        164 |        874 |
+| request                                                                                   |          1 |         26 |          5 |         14 |         45 |
+| routes                                                                                    |          6 |         53 |         18 |         33 |        104 |
+| utils                                                                                     |          2 |         23 |          4 |          5 |         32 |
++-------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                  | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\sgsrb\Desktop\plei TFG\README.md                                                 | Markdown   |         14 |          0 |          8 |         22 |
+| c:\Users\sgsrb\Desktop\plei TFG\config\sequelize-auto.js                                  | JavaScript |         19 |          8 |          3 |         30 |
+| c:\Users\sgsrb\Desktop\plei TFG\config\sequelize.js                                       | JavaScript |         18 |          3 |          3 |         24 |
+| c:\Users\sgsrb\Desktop\plei TFG\controllers\asistenciaController.js                       | JavaScript |         57 |          5 |          7 |         69 |
+| c:\Users\sgsrb\Desktop\plei TFG\controllers\eventoController.js                           | JavaScript |         78 |         16 |         16 |        110 |
+| c:\Users\sgsrb\Desktop\plei TFG\controllers\localizacionController.js                     | JavaScript |         78 |          6 |          8 |         92 |
+| c:\Users\sgsrb\Desktop\plei TFG\controllers\organizadorFavoritoController.js              | JavaScript |         57 |          5 |          7 |         69 |
+| c:\Users\sgsrb\Desktop\plei TFG\controllers\reporteController.js                          | JavaScript |         77 |          6 |          8 |         91 |
+| c:\Users\sgsrb\Desktop\plei TFG\controllers\usuarioController.js                          | JavaScript |         90 |          7 |          8 |        105 |
+| c:\Users\sgsrb\Desktop\plei TFG\index.js                                                  | JavaScript |         25 |         10 |          9 |         44 |
+| c:\Users\sgsrb\Desktop\plei TFG\models\asistencia.js                                      | JavaScript |         45 |          0 |          1 |         46 |
+| c:\Users\sgsrb\Desktop\plei TFG\models\evento.js                                          | JavaScript |         67 |          0 |          1 |         68 |
+| c:\Users\sgsrb\Desktop\plei TFG\models\init-models.js                                     | JavaScript |         42 |          0 |          4 |         46 |
+| c:\Users\sgsrb\Desktop\plei TFG\models\localizacion.js                                    | JavaScript |         41 |          0 |          1 |         42 |
+| c:\Users\sgsrb\Desktop\plei TFG\models\organizadorFavorito.js                             | JavaScript |         45 |          0 |          1 |         46 |
+| c:\Users\sgsrb\Desktop\plei TFG\models\reporte.js                                         | JavaScript |         39 |          0 |          1 |         40 |
+| c:\Users\sgsrb\Desktop\plei TFG\models\usuario.js                                         | JavaScript |         65 |          0 |          1 |         66 |
+| c:\Users\sgsrb\Desktop\plei TFG\package-lock.json                                         | JSON       |      1,589 |          0 |          1 |      1,590 |
+| c:\Users\sgsrb\Desktop\plei TFG\package.json                                              | JSON       |         29 |          0 |          1 |         30 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-23_13-14-50\details.md      | Markdown   |         22 |          0 |          6 |         28 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-23_13-14-50\diff-details.md | Markdown   |          9 |          0 |          6 |         15 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-23_13-14-50\diff.md         | Markdown   |         12 |          0 |          7 |         19 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-23_13-14-50\results.json    | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-23_13-14-50\results.md      | Markdown   |         21 |          0 |          7 |         28 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-25_11-35-15\details.md      | Markdown   |         23 |          0 |          6 |         29 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-25_11-35-15\diff-details.md | Markdown   |         14 |          0 |          6 |         20 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-25_11-35-15\diff.md         | Markdown   |         21 |          0 |          7 |         28 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-25_11-35-15\results.json    | JSON       |          1 |          0 |          0 |          1 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\.VSCodeCounter\2024-05-25_11-35-15\results.md      | Markdown   |         21 |          0 |          7 |         28 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\altaAsistencia.php                         | PHP        |         15 |          0 |          5 |         20 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\altaEvento.php                             | PHP        |         15 |          1 |          5 |         21 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\altaLocalización.php                       | PHP        |         15 |          0 |          5 |         20 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\altaOrganizadorFavorito.php                | PHP        |         15 |          0 |          5 |         20 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\altaReporte.php                            | PHP        |         15 |          0 |          5 |         20 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\altaUsuario.php                            | PHP        |         15 |          0 |          5 |         20 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\borrarEvento.php                           | PHP        |         14 |          2 |          7 |         23 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\borrarUsuario.php                          | PHP        |         14 |          2 |          7 |         23 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\config.php                                 | PHP        |         34 |         20 |         16 |         70 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\getEventos.php                             | PHP        |          9 |          2 |          5 |         16 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\getEventosId.php                           | PHP        |         13 |          0 |          4 |         17 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\getMisEventosId.php                        | PHP        |         16 |          2 |          7 |         25 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\getUsuarios.php                            | PHP        |          9 |          2 |          5 |         16 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\login.php                                  | PHP        |         20 |          2 |          7 |         29 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\updateEvento.php                           | PHP        |         16 |          0 |          5 |         21 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\backend\updateUsuario.php                          | PHP        |         14 |          2 |          7 |         23 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\css\estilos.css                                    | CSS        |        308 |          7 |         45 |        360 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\index.html                                         | HTML       |        594 |         23 |         44 |        661 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\js\ajax.js                                         | JavaScript |        114 |         39 |         36 |        189 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\js\codigo.js                                       | JavaScript |        385 |         17 |         96 |        498 |
+| c:\Users\sgsrb\Desktop\plei TFG\public\js\objetos.js                                      | JavaScript |        137 |         18 |         32 |        187 |
+| c:\Users\sgsrb\Desktop\plei TFG\request\componenteRequest.rest                            | HTTP       |         26 |          5 |         14 |         45 |
+| c:\Users\sgsrb\Desktop\plei TFG\routes\asistenciaRoutes.js                                | JavaScript |          8 |          4 |          6 |         18 |
+| c:\Users\sgsrb\Desktop\plei TFG\routes\eventoRoutes.js                                    | JavaScript |          9 |          0 |          3 |         12 |
+| c:\Users\sgsrb\Desktop\plei TFG\routes\localizacionRoutes.js                              | JavaScript |          9 |          5 |          7 |         21 |
+| c:\Users\sgsrb\Desktop\plei TFG\routes\organizadorFavoritoRoutes.js                       | JavaScript |          8 |          4 |          6 |         18 |
+| c:\Users\sgsrb\Desktop\plei TFG\routes\reporteRoutes.js                                   | JavaScript |          9 |          5 |          7 |         21 |
+| c:\Users\sgsrb\Desktop\plei TFG\routes\usuarioRoutes.js                                   | JavaScript |         10 |          0 |          4 |         14 |
+| c:\Users\sgsrb\Desktop\plei TFG\utils\logger.js                                           | JavaScript |         11 |          0 |          2 |         13 |
+| c:\Users\sgsrb\Desktop\plei TFG\utils\respuesta.js                                        | JavaScript |         12 |          4 |          3 |         19 |
+| Total                                                                                     |            |      4,509 |        232 |        546 |      5,287 |
++-------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

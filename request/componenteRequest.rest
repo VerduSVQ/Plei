@@ -1,0 +1,200 @@
+// Usuarios
+
+GET http://localhost:3000/api/usuarios
+
+###
+
+GET http://localhost:3000/api/usuarios/2
+
+###
+
+PUT http://localhost:3000/api/usuarios/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "usuario": "juanp",
+  "clave": "admin",
+  "nombre": "admin",
+  "rol": "A"
+}
+
+###
+
+DELETE http://localhost:3000/api/usuarios/11
+
+###
+
+POST http://localhost:3000/api/usuarios/login
+Content-Type: application/json
+
+{
+  "usuario": "admin",
+  "clave": "admin"
+}
+
+###
+
+POST http://localhost:3000/api/usuarios
+Content-Type: application/json
+
+{
+  "usuario": "admin",
+  "clave": "admin",
+  "nombre": "admin",
+  "rangoAsistente":0,
+  "rangoOrganizador": 0,
+  "activo":1,
+  "rol": "A"
+}
+
+// Eventos
+###
+GET http://localhost:3000/api/eventos
+
+###
+GET http://localhost:3000/api/eventos/estado/activo
+
+###
+
+GET http://localhost:3000/api/eventos/76
+
+###
+
+PUT http://localhost:3000/api/eventos/3
+Content-Type: application/json
+
+{
+  "id": 3,
+  "nombre": "Concierto Rock",
+  "ciudad": "Barcelona",
+  "genero": "Música",
+  "foto": "",
+  "idUser": 1,
+  "idLoc": 2
+}
+
+###
+
+DELETE http://localhost:3000/api/eventos/7
+
+###
+
+POST http://localhost:3000/api/eventos
+Content-Type: application/json
+
+{
+  "nombre": "Festival de Jazz",
+  "ciudad": "Madrid",
+  "genero": "Música",
+  "rango" : 0,
+  "activo" : 1,
+  "foto": "1",
+  "idUser": 22,
+  "idLoc": 58
+}
+
+//Localizaciones
+###
+GET http://localhost:3000/api/localizaciones
+
+###
+
+GET http://localhost:3000/api/localizaciones/58
+
+###
+
+PUT http://localhost:3000/api/localizaciones/2
+Content-Type: application/json
+
+{
+  "idLocalizacion": 2,
+  "nombre": "Sala Principal",
+  "direccion": "Calle Mayor 45, Madrid",
+  "ciudad": "Madrid",
+  "capacidad": 500
+}
+
+###
+
+DELETE http://localhost:3000/api/localizaciones/3
+
+###
+
+POST http://localhost:3000/api/localizaciones
+Content-Type: application/json
+
+{
+  "nombre": "Teatro Central",
+  "provincia": "Barcelona",
+  "ciudad": "Barcelona",
+  "coordenadas": 123/232,
+}
+
+//OrganizadoresFavoritos
+
+###
+GET http://localhost:3000/api/organizadorFavorito/3
+
+###
+
+DELETE http://localhost:3000/api/organizadorFavorito/3/2
+
+###
+
+POST http://localhost:3000/api/organizadorFavorito
+Content-Type: application/json
+
+{
+  "idUsuario": 1,
+  "idOrganizador": 2
+}
+
+// Reporte
+###
+GET http://localhost:3000/api/reportes
+###
+GET http://localhost:3000/api/reportes/5
+###
+PUT http://localhost:3000/api/reportes/5
+Content-Type: application/json
+
+{
+  "id": 5,
+  "codReporte": 2,
+  "codigoReportado": 1,
+  "mensaje": "Contenido inapropiado",
+  "activo": "false"
+}
+###
+DELETE http://localhost:3000/api/reportes/2
+###
+POST http://localhost:3000/api/reportes
+Content-Type: application/json
+
+{
+   
+  "codReporte": 2,
+  "codigoReportado": 1,
+  "mensaje": "Contenido inapropiado",
+  "activo": "false"
+}
+
+
+//Asistencia
+
+###
+GET http://localhost:3000/api/asistencia/13
+
+###
+
+DELETE http://localhost:3000/api/asistencias/1/1
+###
+POST http://localhost:3000/api/asistencia/15/13
+Content-Type: application/json
+
+{
+  "idUser": 13,
+  "idEvento": 15
+}
+
