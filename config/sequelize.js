@@ -2,11 +2,11 @@
 const { Sequelize } = require('sequelize');
 
 // Instanciar sequelize  para conectar a mysql
-const sequelize = new Sequelize('railway', // nombre bd
+const sequelize = new Sequelize('Plei', // nombre bd
     'root',  // usuario 
     'NUhlcctHQtzHoKZHxMxkjVDoPiVeuXVa', // password 
     { // objeto con opciones de conexion
-        host: 'mysql-production-27f3.up.railway.app', // Cambia esto por la dirección del servidor MySQL
+        host: 'junction.proxy.rlwy.net:50279', // Cambia esto por la dirección del servidor MySQL
         port: 3306, // Cambia esto por el puerto del servidor MySql
         dialect: 'mysql' // Especificar el dialecto de la base de datos
     });

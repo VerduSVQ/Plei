@@ -1,10 +1,10 @@
 const SequelizeAuto = require('sequelize-auto');
 
-const auto = new SequelizeAuto('railway', // nombre bd
+const auto = new SequelizeAuto('Plwi', // nombre bd
 'root',  // usuario 
-'NUhlcctHQtzHoKZHxMxkjVDoPiVeuXVa', // password 
+'oYyPrHWRdddXiHTOnoYtqxrZgBgcSfwB', // password 
  {
-    host: 'mysql-production-27f3.up.railway.app',
+    host: 'junction.proxy.rlwy.net:50279',
     dialect: 'mysql',
     directory: './models', // where to write files
     port: '3306',
