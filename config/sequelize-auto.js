@@ -1,6 +1,6 @@
 const SequelizeAuto = require('sequelize-auto');
 
-const auto = new SequelizeAuto('Plwi', // nombre bd
+const auto = new SequelizeAuto('Plei', // nombre bd
 'root',  // usuario 
 'oYyPrHWRdddXiHTOnoYtqxrZgBgcSfwB', // password 
  {
