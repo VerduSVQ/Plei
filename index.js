@@ -22,6 +22,7 @@ app.use(express.json());
 const corsOptions = {
   origin: 'https://plei-production.up.railway.app', // Reemplaza con tu dominio de frontend
   methods: '*', // Métodos permitidos
+  credentials:true,
   allowedHeaders: 'Content-Type, Authorization,Access-Control-Allow-Origin', // Cabeceras permitidas
 };
 app.use(cors(corsOptions));  // Configura CORS con las opciones
