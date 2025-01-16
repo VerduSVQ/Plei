@@ -1,5 +1,5 @@
 {
-  "name": "plwi",
+  "name": "plei",
   "version": "1.0.0",
   "description": "Backend apiREST con sequalize para ppp",
   "main": "index.js",
