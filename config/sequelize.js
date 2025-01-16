@@ -6,8 +6,8 @@ const sequelize = new Sequelize('Plei', // nombre bd
     'root',  // usuario 
     'NUhlcctHQtzHoKZHxMxkjVDoPiVeuXVa', // password 
     { // objeto con opciones de conexion
-        host: 'junction.proxy.rlwy.net:50279', // Cambia esto por la dirección del servidor MySQL
-        port: 3306, // Cambia esto por el puerto del servidor MySql
+        host: 'junction.proxy.rlwy.net', // Cambia esto por la dirección del servidor MySQL
+        port: 50279, // Cambia esto por el puerto del servidor MySql
         dialect: 'mysql' // Especificar el dialecto de la base de datos
     });
 
