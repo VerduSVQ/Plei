@@ -4,7 +4,7 @@ const auto = new SequelizeAuto('railway', // nombre bd
 'root',  // usuario 
 'NUhlcctHQtzHoKZHxMxkjVDoPiVeuXVa', // password 
  {
-    host: 'mysql.railway.internal',
+    host: 'mysql-production-27f3.up.railway.app',
     dialect: 'mysql',
     directory: './models', // where to write files
     port: '3306',
