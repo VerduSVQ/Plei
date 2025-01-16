@@ -20,10 +20,12 @@ app.use(express.json());
 
 // Configurar CORS para admitir cualquier origen
 const corsOptions = {
-  origin: '*', // Reemplaza con la URL de tu frontend
-  methods: '*',
-  allowedHeaders: 'Content-Type,Authorization'
+  origin: 'https://plei-production.up.railway.app', // Reemplaza con tu dominio de frontend
+  methods: '*', // Métodos permitidos
+  allowedHeaders: 'Content-Type, Authorization', // Cabeceras permitidas
 };
+app.use(cors(corsOptions));  // Configura CORS con las opciones
+
 app.use(cors(corsOptions));
 
 // Configurar rutas de la API Rest
